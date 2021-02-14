@@ -16,7 +16,7 @@ public class Agah {
         
         user();
         System.out.println("Enter number");   
-          check(rdm.nextInt(5));
+          check(rdm.nextInt(100));
 
     
     }
@@ -43,9 +43,12 @@ public static void check(int r)
               break;
               
           }else
+          {if(r>input)
           {
-              System.out.println("try again\n\n");
-              
+              System.out.println("Please Enter larger number");
+          }
+           else
+                  System.out.println("please enter a smaller number");
               break;
           }
     }
