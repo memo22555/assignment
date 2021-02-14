@@ -27,7 +27,7 @@ public static void check(int r)
     for(int i=1;true;i++)  {
         Scanner scan=new Scanner(System.in);
                  int input=scan.nextInt();
-                 System.out.println(i);
+            
 
     if (r==input)
           {
